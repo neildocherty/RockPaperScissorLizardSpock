@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RPSLS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="title">Rock Paper Scissors Lizard Spock</div>
+      </div>
+      <div class="row">
+        <div>
+          <h4>YOU</h4>
+          <div id="userSelect" class="fa"></div>
+          <div id="userScore" class="points">0</div>
+        </div>
+        <div class="flex-v">
+          <h6>VS</h6>
+        </div>
+        <div>
+          <h4>SHELDON</h4>
+          <div id="compSelect" class="fa"></div>
+          <div id="compScore" class="points">0</div>
+        </div>
+      </div>
+
+      <div id="ui" class="row scroll">
+        <div class="row">
+          <button class="button fa r" title="rock"    value='r'></button>
+          <button class="button fa p" title="paper"   value='p'></button>
+          <button class="button fa s" title="scissors"value='s'></button>
+          <button class="button fa l" title="lizard"  value='l'></button>
+          <button class="button fa v" title="spock"   value='v'></button>
+        </div>
+        <div class="row">
+          <button id="readyButton">READY...</button>
+        </div>
+      </div>
+      <div class="">
+        <a href="https://youtu.be/iapcKVn7DdY" target="_blank" class="rules">What are the Rules?</a>
+      </div>
+
+    </div>
+
+  </body>
+
+  <script src="js/main.js" charset="utf-8"></script>
+
+</html>
